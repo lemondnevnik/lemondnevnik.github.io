@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html, body {
+    font-family: 'Rubik';
+    background-color: #2a2b30;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border-radius: 24px;
+    width: 200px;
+    height: 200px;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+a {
+    color: #ffffff; /* цвет текста */
+    text-decoration: none; /* чтобы текст не подчёрк.*/
+}
+
+p {
+    color: #ffffff; /* цвет текста */
+    text-decoration: none; /* чтобы текст не подчёрк.*/
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+small {
+    color: #c9c9c96c; /* цвет текста */
+    text-decoration: none; /* чтобы текст не подчёрк.*/
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+script {
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+.info, .homework, .news {
+    background: #fff1;
+    color: #f7f7f7;
+    padding: 0.4em;
+    margin: 0.3em 0em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    width: 80%;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1em;
+    transition: 0.5s;
+}
+
+.info:hover {
+    background: #fff2;
+    font-size: 1.02em;
+    box-shadow: 0px 0px 10px 10px #0005;
+    transition: 0.5s;
+}
+
+.homework:hover, .news:hover {
+    background: #fff2;
+    font-size: 1.02em;
+    box-shadow: 0px 0px 10px 10px #0005;
+    transition: 0.5s;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0); /* for safari compatibility */
+    width: 75%;
+    border: solid rgba(255, 255, 255, .2) 2px;
+    height: 0px;
+    margin: 1em 0em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    border-radius: 2px;
+  }
+
+h1, h2, h3 {
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+nav {
+    text-decoration: none;
+    background: linear-gradient(#496AF3, #314ec4);
+    padding: 0.5em;
+    background: linear-gradient(-45deg, #6252ee, #2f00ff, #a561ff, #cf23d5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 20px;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
